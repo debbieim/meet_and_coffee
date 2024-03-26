@@ -1,0 +1,164 @@
+*{
+    font-family: open sans;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+
+/*menu - nav */
+
+nav{
+    background-color:black;
+    color:white;
+    padding: 20px;
+}
+
+li{
+    display: inline;
+    padding: 30px;
+    vertical-align: middle; /*centra los menus*/
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+#svg{
+    filter:invert(100%);
+    width: 25px;
+    margin-top:5px;   
+}
+
+/* header-cabecera */
+
+header{
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*propiedades agregadas*/
+    font-family: 'Open Sans';
+    text-shadow: 0px 3px 6px black;
+    text-align: right;
+    color:white;
+    padding: 50px;
+}
+
+header h1{
+    font-size: 60px;
+}
+
+header h3{
+    font-size: 40px;
+    font-weight: lighter;
+     
+}
+
+/* section wework*/
+
+#wework{
+    padding: 50px;
+    text-align: center;
+}
+
+#wework h2{
+    padding-top: 30px;
+    padding-bottom: 5px;
+    font-size: 40px;
+}
+
+#wework p{
+    width: 460px;
+    margin: 0 auto; /* Esto centrará horizontalmente el párrafo */
+    padding-top: 30px;
+    padding-bottom: 5px;
+    
+}
+
+/*sección charla*/
+
+#proxima-charla{
+    background-color: #a4452c ;
+    text-align: center;
+    color: white;
+    padding: 50px 0px;
+}
+
+.foto-charla{
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    padding-right: 30px;
+}
+
+.info-charla{
+    display: inline-block;
+    width: 450px;
+    text-align: left;
+    width: 500px;
+}
+
+.info-charla h2, h4, p{
+    padding: 10px;
+}
+small{
+    font-size: 12px;
+    width: 500px;
+    padding: 10px;
+    text-align: left;
+}
+
+ /*eventos anteriores*/
+
+ #eventos-anteriores{
+    text-align: center;
+ }
+ 
+ #eventos-anteriores aside{
+    display: inline-block;
+    padding: 16px 58px 56px 50px;
+ }
+
+ #eventos-anteriores h2{
+    padding: 35px 0px 35px 0px;
+ }
+
+ #eventos-anteriores h3{
+    padding: 18px;
+ }
+
+ #eventos-anteriores a{
+    color: black;
+    padding: 30px 30px;
+ }
+
+ /*footer*/
+ 
+ footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+ }
+
+ footer p{
+    padding-bottom: 60px ;
+
+ }
+
+ footer i{
+    width: 100px;
+    padding: 50px 0;
+}
+
+footer .icon{
+    padding-top: 25px;
+}
+
